@@ -1,5 +1,12 @@
 {
   "name": "@carecloud/the-graph",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/carecloud/the-graph"
+  },
+  "publishConfig": {
+  "registry":"https://npm.pkg.github.com"
+},
   "version": "0.12.0",
   "description": "flow-based programming graph editing",
   "author": "Forrest Oliphant, the Grid",
@@ -52,10 +59,7 @@
     "preversion": "grunt test",
     "postversion": "git push && git push --tags"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/flowhub/the-graph.git"
-  },
+
   "keywords": [
     "graph"
   ],
